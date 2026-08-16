@@ -18,26 +18,6 @@ A modern, full-stack User Management Dashboard. Users can be created, updated, a
 
 ---
 
-## Visual Previews
-
-### 1. Dashboard View
-Displays total registered profiles, unique corporate domains, and new weekly registrations, alongside a searchable list of users.
-![User List View](previews/user_list_view.png)
-
-### 2. Add New User (Side Drawer)
-Users are added inside a slide-out offcanvas drawer with built-in client-side validation.
-![Create User Drawer](previews/create_user_drawer.webp)
-
-### 3. User Details View (Modal Overlay)
-Quick detailed profile view including address details, company, and coordinates in a clean overlay format.
-![User Details View](previews/user_details_view.png)
-
-### 4. Edit Profile & Validation (Side Drawer)
-Live modifications of user records are performed directly in the side drawer. Any field-level database or client validation errors are captured and displayed gracefully.
-![Edit & Validation Preview](previews/drawer_edit_and_validation.webp)
-
----
-
 ## API Endpoints
 
 ### User Directory Routes (`/api/v1/users`)
